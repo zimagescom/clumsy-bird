@@ -217,7 +217,7 @@ game.Ground = me.Entity.extend({
     init: function(x, y) {
         var settings = {};
         settings.image = me.loader.getImage('ground');
-        settings.width = 1920;
+        settings.width = 900;
         settings.height= 96;
         this._super(me.Entity, 'init', [x, y, settings]);
         this.alwaysUpdate = true;

@@ -30,10 +30,10 @@ var game = {
     ],
 
     "onload": function() {
-        if (!me.video.init(1920, 1080, {
+        if (!me.video.init(900, 600, {
             wrapper: "screen",
             scale : "auto",
-            scaleMethod: "fit"
+            scaleMethod: "fit",
         })) {
             alert("Your browser does not support HTML5 canvas.");
             return;
