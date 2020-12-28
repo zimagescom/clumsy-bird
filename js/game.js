@@ -30,7 +30,7 @@ var game = {
     ],
 
     "onload": function() {
-        if (!me.video.init(900, 600, {
+        if (!me.video.init(1920, 1080, {
             wrapper: "screen",
             scale : "auto",
             scaleMethod: "fit"
