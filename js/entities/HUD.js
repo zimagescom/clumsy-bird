@@ -43,8 +43,8 @@ var BackgroundLayer = me.ImageLayer.extend({
     init: function(image, z, speed) {
         var settings = {};
         settings.name = image;
-        settings.width = 900;
-        settings.height = 600;
+        settings.width = 1920;
+        settings.height = 1080;
         settings.image = image;
         settings.z = z;
         settings.ratio = 1;
